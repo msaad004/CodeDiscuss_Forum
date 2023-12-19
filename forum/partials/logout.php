@@ -3,7 +3,6 @@ session_start();
 session_unset();
 session_destroy();
 include '_dbconnect.php';
-header('location: ../index.php?logoutsuccess=true');
 ?>
 <!doctype html>
 <html lang="en">
